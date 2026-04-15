@@ -1,0 +1,51 @@
+{
+  "name": "@monstergaming/sdk",
+  "version": "0.1.0",
+  "description": "Official TypeScript/JavaScript SDK for Monster Gaming — AI-powered game development platform",
+  "homepage": "https://monstergaming.ai",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Monster-Gaming-ai/sdk-js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Monster-Gaming-ai/sdk-js/issues"
+  },
+  "keywords": [
+    "ai",
+    "game-development",
+    "llm",
+    "unreal-engine",
+    "unity",
+    "godot",
+    "code-generation",
+    "monster-gaming",
+    "openai-compatible",
+    "gamedev"
+  ],
+  "license": "MIT",
+  "author": "Monster Gaming <hello@monstergaming.ai> (https://monstergaming.ai)",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
