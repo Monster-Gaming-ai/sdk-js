@@ -5,7 +5,9 @@ Official TypeScript/JavaScript client for [Monster Gaming](https://monstergaming
 ## Installation
 
 ```bash
-npm install @monstergaming/sdk
+pnpm add @monstergaming/sdk
+# or: npm install @monstergaming/sdk
+# or: yarn add @monstergaming/sdk
 ```
 
 ## Quick Start
